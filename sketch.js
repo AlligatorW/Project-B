@@ -408,7 +408,7 @@ function draw() {
       yearLongest = resYear - 1;
     }
     if (resTravel - speedEscape > travelLongest) {
-      travelLongest = nf(travelled - speedEscape,0,0);
+      travelLongest = nf(travelled - speedEscape,0,2);
     }
     fill(0, 0, 0, 200);
     rect(0, 0, width, height);
