@@ -1,0 +1,80 @@
+html, body {
+    width: auto;
+    height: auto;
+    background-image: url("aboutbackground.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+  h1 {
+    width: 500px;
+    color: aqua;
+    margin: auto;
+    margin: 0px;
+    padding: 0px;
+    font-size: 100px;
+    font-family: 'Jura', sans-serif;
+    text-align:left;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-120%,-70%);
+  }
+
+  h2{
+    width: 500px;
+    color: aqua;
+    margin: auto;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Jura', sans-serif;
+    text-align:left;
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-120%,-70%);
+  }
+
+div{
+    color: aqua;
+    padding:0px;
+    margin:0;
+    font-size: 60px;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    border: 15px solid transparent;
+    border-image: url(border.png) 14% 6% 8% 8% stretch;
+    width:500px;
+    height:80px;
+    display: block;
+    margin:0px;
+    text-align:center;
+    transition: all 0.5s;
+}
+
+div:hover{
+    opacity:0
+}
+
+.div2{
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: aqua;
+    padding:0px;
+    margin:0;
+    font-size: 15px;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    border: 15px solid transparent;
+    border-image: url(border.png) 14% 6% 8% 8% stretch;
+    width:500px;
+    height:80px;
+    display: block;
+    margin:0px;
+    text-align:center;
+    transition: all 0.5s;
+}

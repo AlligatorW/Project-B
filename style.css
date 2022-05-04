@@ -1,0 +1,67 @@
+html, body {
+  width: auto;
+  height: auto;
+  background-image: url("pagebackground.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+p{
+  color: aqua;
+  margin: auto;
+  margin-top:20px;
+  font-size: 30px;
+  font-family: 'Jura', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: aqua;
+  margin: auto;
+  margin-top:20px;
+  font-size: 50px;
+  font-family: 'Jura', sans-serif;
+  text-align: center;
+}
+
+canvas {
+  border: 25px solid transparent;
+  border-image: url(border.png) 14% 6% 8% 8% stretch;
+  display: block;
+  margin:auto;
+  padding:0px;;
+  text-align:center;
+}
+
+#longestYear{
+    width:500px;
+    height:50px;
+    color: aqua;
+    margin: auto;
+    margin:0;
+    font-size: 50px;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translateX(-150%);
+}
+#longestTravel{
+    width:500px;
+    height:50px;
+    color: aqua;
+    margin: auto;
+    margin: 0px;
+    font-size: 50px;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translateX(50%);
+}
