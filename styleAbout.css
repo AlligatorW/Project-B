@@ -40,7 +40,28 @@ html, body {
     transform: translate(-120%,-70%);
   }
 
-div{
+.startButton{
+    color:aqua;
+    width: 150px;
+    height: 70px;
+    font-size: 30px;
+    font-family: 'Jura', sans-serif;
+    text-align:center;
+    border: 1px solid aqua;
+    border-image:none;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-380%,150%);
+    transition: all 0.5s;
+}
+
+.startButton:hover{
+    background-color: aqua;
+    color:white;
+}
+
+.div1{
     color: aqua;
     padding:0px;
     margin:0;
@@ -57,7 +78,7 @@ div{
     transition: all 0.5s;
 }
 
-div:hover{
+.div1:hover{
     opacity:0
 }
 
