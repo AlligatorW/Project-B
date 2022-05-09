@@ -37,13 +37,14 @@ html, body {
     position: absolute;
     top:25%;
     left:50%;
-    transform: translate(-120%,-70%);
+    transform: translate(-118%,-70%);
   }
 
 .startButton{
     color:aqua;
     width: 150px;
     height: 70px;
+    margin: 0px;
     font-size: 30px;
     font-family: 'Jura', sans-serif;
     text-align:center;
@@ -52,13 +53,21 @@ html, body {
     position: absolute;
     top:50%;
     left:50%;
-    transform: translate(-380%,150%);
+    transform: translate(-390%,150%);
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .startButton:hover{
     background-color: aqua;
+    border: 1px solid white;
     color:white;
+}
+
+.startButton:active{
+  background-color: red;
+  border: 1px solid red;
+  color:white;
 }
 
 .div1{
